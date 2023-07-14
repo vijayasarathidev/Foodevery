@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Open+Sans&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@700&family=Sono:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+  }
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+   
+::-webkit-scrollbar {
+    width: 0px;
+    height: 5px;
+  }
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+a {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+html{
+scroll-behavior: smooth;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between ;
+    background-color: yellow;
+}
+
+
+.nav-items{
+    margin-top: 70px;
+}
+
+.nav-items > ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-items > ul > li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.nav-items > ul > li:hover {
+   color: red;
+}
+
+.logo {
+    width: 150px;
+}
+
+.card{
+    width: 300px;
+    padding: 10px;
+    margin: 30px;
+    background-color: rgb(219, 221, 223);
+    border-radius: 5px;
+}
+
+.card:hover{
+    border: 1px solid red;
+}
+
+.card > img {
+    width: 100%;
+}
+
+.card h2{
+    color: red;
+}
+
+.card h4{
+    color: rgb(80, 157, 54);
+}
+
+.restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-container{
+    display: flex;
+    margin-left: 600px;
+    margin-top: 50px;
+    
+}
+
+.search-container input{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.search-container button{
+    width: 60px;
+    height: 40px;
+    border-radius: 0px 8px 8px 0px;
+    border: 1px solid black;
+}
+
